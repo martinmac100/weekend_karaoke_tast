@@ -11,8 +11,10 @@ class Room:
     # def check_out_of_room():
     #     pass 
 
-    # def add_song_to_room():
-    #     pass 
+    def add_song_to_room(self, song_to_add):
+        self.room.add_song(self.song_1)
+        self.song_list += song_to_add
+        
 
     # def play_song():
     #     pass
