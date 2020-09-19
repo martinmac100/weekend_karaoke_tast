@@ -1,23 +1,11 @@
 class Room:
-    def __init__(self, name, guest_list, song_list, entrance_fee):
-        self.name = name
+    def __init__(self, room_name, guest_list, song_list, cash_register):
+        self.room_name = room_name
         self.guest_list = []
         self.song_list = []
-        self.entrance_fee = entrance_fee
+        self.cash_register = cash_register
 
-    # def check_in_to_room():
-    #     pass 
 
-    # def check_out_of_room():
-    #     pass 
-
-    def add_song_to_room(self, song_to_add):
-        self.room.add_song(self.song_1)
-        self.song_list += song_to_add
-        
-
-    # def play_song():
-    #     pass
-    # def how_much_cash_in_till():
-    #     pass
-    
+    def add_guest_to_room(self):
+        guest = guest_1
+        self.room.guest_list.append(self.guest_1)
