@@ -33,7 +33,10 @@ class TestRoom(unittest.TestCase):
         self.room.add_guest_to_room(self.guest_1)
         self.assertEqual([self.guest_1],self.room.guest_list)
 
+    # def test_remove_guest_from_room(self):
+    #     self.room.remove_guest_from_room(self.guest_1)
+    #     self.assertEqual([None],self.room.guest_list)
+
     def test_add_song_title_to_room(self):
         self.room.add_song_title_to_room(self.song_1)
         self.assertEqual([self.song_1],self.room.song_list)
-
